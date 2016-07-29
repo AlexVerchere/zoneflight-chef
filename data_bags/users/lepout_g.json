@@ -1,0 +1,12 @@
+{
+  "groups": ["sysadmin"],
+  "comment": "Guillaume LEPOUTRE",
+  "ssh_keys": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKjgrNj+RVNmhiOnb2tgsLMAlvJSLeBkTDdTGWAviVM8 user@aspire-debian",
+  "nagios": {
+    "pager": "lepout_g@etna-alternance.net",
+    "email": "lepout_g@etna-alternance.net"
+  },
+  "mail": "lepout_g@etna-alternance.net",
+  "id": "lepout_g",
+  "shell": "/bin/bash"
+}
