@@ -1,0 +1,12 @@
+{
+  "groups": ["sysadmin"],
+  "comment": "Stacie KITH",
+  "ssh_keys": "ssh-dss AAAAB3NzaC1kc3MAAACBALqocZI4wlzEvNCXSrf+Ed77vy+CPzJLLUAhKQ8RjJhE6/5ueRp4bCTfxlyH7hlgIIBGM1CdbnuBSBMBGM3O9tGHX/IZ11sq6a3igO+DXQ3rsNAoSmwKLVfWfeyb6jg9L/50xlyM3tbB5hoNzL/weXLXiUgMS3/1rqP3pNpaKDO3AAAAFQCZBgiYstpQM2/siZtUfwFUJm7sRQAAAIBSR6pNQp+GQY2ugpDLO3XwIU4gumN+kZR5vZjmzEyNeCJacJ4CjKiTkPpaoevjLrT+l+XzbU1JsEchA29NTtFJDcRxguqoeIcVP6tlZTa3cR7PGi0j5FplLusug3n6zx08JyATmvfXbVxgMfbRrXT3RCZetAakShq47apN2WwRXgAAAIBD/7QSmwF401JtVySxB2DW9HxGoKNDiO6jzko5+hUOxmriq1USsEjEV6jh33ZOzDdLTKSsS7aAO+x3HeACSyTdNlsaLxhBXciutEOIB1jsY8ZOjbAK8PjxWquHVVrw51492wgMJdr2B+K6L1K12hrLWxI3zkOH1DHtj4UifWpvbQ== kith_s@etna-alternance.net",
+  "nagios": {
+    "pager": "kith_s@etna-alternance.net",
+    "email": "kith_s@etna-alternance.net"
+  },
+  "mail": "kith_s@etna-alternance.net",
+  "id": "kith_s",
+  "shell": "/bin/bash"
+}

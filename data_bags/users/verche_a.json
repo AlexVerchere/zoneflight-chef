@@ -1,0 +1,12 @@
+{
+  "groups": ["sysadmin"],
+  "comment": "Alexandre VERCHERE",
+  "ssh_keys": "ssh-dss AAAAB3NzaC1kc3MAAACBAOtlHjaYJKhspiU6p0HLSscKbWaRjgQUBFliFH0bxB5peBGeMIUA4HDjRLdsnq1h0CR89v1D4PgGngzNPBG1+wk0dBa+xc/U/4x1TLsR7egvcQRrwWPd8G2vLDJpQT1Y5bl5AhEezOELfJrk35RtZyifksZWRkgHnwy0AF1ehU5xAAAAFQD3dQotwASVrMHOgy2Bg2NlJyTK3wAAAIBqj+fcvwpUV7h9CtvFzocYHmLjBaYTGWCfRWI5Ea7c5GMqifljmHBf1lHwlLYeqAIO2Em9euRaXjf9AKEgFVgDMtMpDqxwmLIPTgSeg1oSAu8NZbzmp1Negf0q/KLSQCA/lYqTjGdfSqzr3g1EL3yNDSZdNOykDRLpDFbZcud97wAAAIAr48kp/KCZcgFMFmbYiVBz5RIHKGxKnjzwUpSlRKGW3kyW4/k4JrEDXTTEivGTgGPq5GcCOfmZEONPQQeJFjKrJdzsUNSMZuXgZRi3yuITkjzrKuInJ8f4cR9XFMwfqMUx+qGSdbZEBLjXd0JS/w29zLtzylCjgAaLBnlIa2ZMlA== Alexandre@MacBookPro",
+  "nagios": {
+    "pager": "verche_a@etna-alternance.net",
+    "email": "verche_a@etna-alternance.net"
+  },
+  "mail": "verche_a@etna-alternance.net",
+  "id": "verche_a",
+  "shell": "/bin/bash"
+}

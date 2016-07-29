@@ -1,0 +1,12 @@
+{
+  "groups": ["sysadmin"],
+  "comment": "Pierre SEPHIHA",
+  "ssh_keys": "ssh-dss AAAAB3NzaC1kc3MAAACBAOhE8Erb/GxK/3q0AjROVsEzM7NmHCY5ELcx/3Ob6GA0uSm5S8dNRFKqJv7xfASQbDBMXvZzbF/yx+dEDL7V2MMskwBPShBjO5Glbxp/5Jx3p869qcCTxCCnHqn9SW+4uljDAHMApXZB2IqkH7l86KDQXL5UVK6LqIY4Zf+RjFlvAAAAFQCeSZ03HSM+Qmj2cGmsBe7oCTDAyQAAAIEAqkptLDimkt7Msc8STJGLJ4jN3JU4Rug70a//9a3B7I6i1mgXXfbOQqwBkgHBYd0lZLv6ijfP4pksChkS2gC7yJZwmvd+Tm/syyhos04CuWMLemCYeDTpTRm6KrSO0knDK5bqf2avLSDS0Q8S+pc6EMmOrzzN+3BdHkmuDR4wzZoAAACBANo6GkOQ6o4exlOwlkN9ZbXzo7WiEz1uFL5fM9kgKPSFNE1jhUOJHepraTe1ej/9ZLh0XzOLZDkxMEPriVeODP/5MZ7hk0nNAj5aAsc8mGq3i9S2z6T1sgCgsZViT0W4Mz8gDi/oA0TMQ6F/iYL9lmaV/uomL4t4Zav1S0qFB87A sven@debian",
+  "nagios": {
+    "pager": "sephih_p@etna-alternance.net",
+    "email": "sephih_p@etna-alternance.net"
+  },
+  "mail": "sephih_p@etna-alternance.net",
+  "id": "sephih_p",
+  "shell": "/bin/bash"
+}

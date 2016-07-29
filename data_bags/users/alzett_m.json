@@ -1,0 +1,12 @@
+{
+  "groups": ["sysadmin"],
+  "comment": "Marc ALZETTO",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAowJtgNQcwlKbCvoxD7Fq01AKFcXysm4Uo2ZIZFa3JADjpyWR/SIbluHp9UuLUy8EYCrdcN3Q0mL1iqnEmGvRKlWLOnIIdjADBK4A4mIDptOKi9eedYHWhpFkWOEU+FKZ+WY9GIVHePof6faDxLyzIgo+LZdAJbx7cu2KnqCnJD9PhBrCh+QnaDgiah5okLYaE/2FiUjnZovaxbke4JitmVAwuBEI8Oc3Zb0MnX6b1hESqY+LToua6esxPvQKhOp7yz8sG+NLVqEXwDp/QyXNUwxrXREwy4+1/qjCpscapQTp3qak3MZY4yxHp90VZreYn0Ft8jixzbRUry8qDF0ODQ== rsa-key-20160418",
+  "nagios": {
+    "pager": "alzett_m@etna-alternance.net",
+    "email": "alzett_m@etna-alternance.net"
+  },
+  "mail": "alzett_m@etna-alternance.net",
+  "id": "alzett_m",
+  "shell": "/bin/bash"
+}
