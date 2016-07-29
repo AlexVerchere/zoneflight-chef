@@ -1,0 +1,11 @@
+.DS_Store
+
+# private keys
+.chef/*.pem
+
+# trusted certificats
+.chef/trusted_certs/
+
+# All temporary emacs files
+*~
+
