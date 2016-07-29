@@ -1,7 +1,7 @@
 {
   "groups": ["sysadmin"],
   "comment": "Guillaume LEPOUTRE",
-  "ssh_keys": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKjgrNj+RVNmhiOnb2tgsLMAlvJSLeBkTDdTGWAviVM8 user@aspire-debian",
+  "ssh_keys": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDNCg9H6tKtioa5nQwWcIO5QNDCxbM8nFpk+WfjQDToK guillaume@elos",
   "nagios": {
     "pager": "lepout_g@etna-alternance.net",
     "email": "lepout_g@etna-alternance.net"
