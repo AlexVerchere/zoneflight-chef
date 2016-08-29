@@ -1,6 +1,6 @@
 {
     "name": "vm002.eip2017.etna-alternance.net",
-    "chef_environment": "_default",
+    "chef_environment": "production",
     "normal": {
     },
     "policy_name": null,
