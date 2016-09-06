@@ -23,6 +23,7 @@ default_attributes(
         }
     },
     "packages-cookbook" => [
+        "bash-completion",
         "curl",
         "emacs",
         "ethtool",
@@ -33,6 +34,7 @@ default_attributes(
         "locate",
         "nmap",
         "rsync",
+        "screen",
         "sudo",
         "tcpdump",
         "traceroute",
@@ -54,7 +56,7 @@ default_attributes(
         "sudo" => {
             "include_sudoers_d" => true,
             "passwordless"      => true,
-            "groups"            => ["sysadmin", "dev", "pedago"],
+            "groups"            => ["sysadmin", "devs"],
             "sudoers_defaults"  => [
                 '!lecture,tty_tickets,!fqdn',
                 'secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"'
