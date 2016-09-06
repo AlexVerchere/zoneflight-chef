@@ -1,0 +1,12 @@
+{
+    "name": "zoneflight-api-01.zoneflight.ovh",
+    "chef_environment": "production",
+    "normal": {
+    },
+    "policy_name": null,
+    "policy_group": null,
+    "run_list": [
+        "role[secure_server]"
+    ]
+
+}
