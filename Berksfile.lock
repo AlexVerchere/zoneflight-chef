@@ -8,6 +8,8 @@ DEPENDENCIES
   packages (~> 1.0)
   sudo (~> 2.9)
   users (~> 2.0)
+  users-zoneflight
+    path: site-cookbooks/users-zoneflight
 
 GRAPH
   accounts (0.2.1)
@@ -30,6 +32,8 @@ GRAPH
   packages (1.0.0)
   sudo (2.11.0)
   users (2.0.3)
+  users-zoneflight (0.1.0)
+    users (>= 0.0.0)
   windows (1.44.3)
     chef_handler (>= 0.0.0)
   yum (3.12.0)
