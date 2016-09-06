@@ -8,8 +8,7 @@ log_location             STDOUT
 node_name               chef_user
 client_key              "#{File.dirname(__FILE__)}/#{chef_user}.pem"
 
-#chef_server_url         'https://chef.zone-flight.local/organizations/zone-flight/'
-chef_server_url         'https://163.5.245.201/organizations/zone-flight/'
+chef_server_url         'https://chef.zoneflight.ovh/organizations/zone-flight/'
 ssl_verify_mode         :verify_none
 
 cache_type              'BasicFile'
