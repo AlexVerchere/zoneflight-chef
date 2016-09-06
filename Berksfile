@@ -13,7 +13,7 @@ cookbook "iptables",        '~> 2.2'
 cookbook "fail2ban",        '~> 2.3'
 
 # Users
-cookbook 'accounts',        '~> 0.2'
+cookbook "accounts",        '~> 0.2'
 cookbook "sudo",            '~> 2.9'
 cookbook 'users',           '~> 2.0'
 
