@@ -23,3 +23,5 @@ cookbook 'users-zoneflight',    path:"./site-cookbooks/users-zoneflight"
 # DEVs Tools
 
 # Webapp
+cookbook 'dotdeb',              '~> 1.1'
+cookbook "webapp",              path:"./site-cookbooks/webapp"
