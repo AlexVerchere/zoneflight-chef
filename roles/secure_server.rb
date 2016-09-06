@@ -5,6 +5,8 @@ run_list(
     "recipe[chef-client]",
     "recipe[chef-client::delete_validation]",
     "recipe[chef-client::config]",
+    "recipe[users-zoneflight]",
+    "recipe[users-zoneflight::developers]",
     "recipe[packages]",
     "recipe[fail2ban]",
     "recipe[openssh]",
