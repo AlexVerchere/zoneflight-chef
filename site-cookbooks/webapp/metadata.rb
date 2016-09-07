@@ -1,6 +1,6 @@
 name             'webapp'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'ETNA - zoneflight'
+maintainer_email 'verche_a@etna.io'
 license          'All rights reserved'
 description      'Installs/Configures webapp'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
