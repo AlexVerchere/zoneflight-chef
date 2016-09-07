@@ -25,5 +25,7 @@ default_attributes(
 
 run_list(
 "recipe[dotdeb]",
-"recipe[webapp]"
+"recipe[webapp]",
+"recipe[mariadb]",
+"recipe[composer]"
 )
