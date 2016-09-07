@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+    ServerName www.zoneflight.ovh
+    ServerAdmin webmaster@localhost
+
+    DocumentRoot /var/www/zoneflight-web/
+    <Directory "/var/www/zoneflight-web/">
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
