@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+    ServerName api.zoneflight.ovh
+    ServerAdmin webmaster@localhost
+
+    DocumentRoot /var/www/zoneflight-api/public/
+    SetEnv APPLICATION_ENV production
+    <Directory "/var/www/zoneflight-api/public/">
+        Options Indexes MultiViews FollowSymLinks
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+        
+        RewriteEngine On
+        RewriteBase  /
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^ index.php [L]
+    </Directory>
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>

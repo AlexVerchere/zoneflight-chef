@@ -1,5 +1,5 @@
 name "secure_server"
-description "Role permettant de sécuriser un serveur."
+description "Role permettant de sécuriser un serveur après son installation."
 
 run_list(
     "recipe[chef-client]",
