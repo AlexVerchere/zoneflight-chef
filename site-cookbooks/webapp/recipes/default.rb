@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe "composer::default"
+
 node[:webapp][:webapp_packages].each do |name|
     package name do
         action :install
