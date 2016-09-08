@@ -27,3 +27,4 @@ cookbook "dotdeb",              '~> 1.1'
 cookbook "webapp",              path:"./site-cookbooks/webapp"
 cookbook "mariadb",             '~> 0.3'
 cookbook "composer",            '~> 2.4'
+cookbook "nodejs",              '~> 2.4'

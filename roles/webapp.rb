@@ -20,12 +20,24 @@ default_attributes(
         "rewrite",
         "php7.0"
     ]
+},
+"nodejs" => {
+    "npm_packages" => [
+        {
+            "name" => "bower"
+        },
+        {
+            "name" => "angular"
+        }
+    ]
 }
+
 )
 
 run_list(
 "recipe[dotdeb]",
 "recipe[webapp]",
 "recipe[mariadb]",
-"recipe[composer]"
+"recipe[composer]",
+"recipe[nodejs]"
 )
