@@ -24,6 +24,12 @@ node[:webapp][:webapp_mods].each do |mod|
 end
 
 %w{zoneflight-api zoneflight-web}.each do |site|
+    git "/var/www/#{site}" do
+        repository "git://github.com/ZoneFlight/#{site}.git"
+        reference "master"
+        action :sync
+    end
+
     template "/etc/apache2/sites-available/#{site}.conf" do
         source "#{site}.conf.erb"
         mode 0644
@@ -54,6 +60,24 @@ composer_project "/var/www/zoneflight-api" do
     dev false
     quiet true
     prefer_dist false
-    not_if "test -L /var/www/zoneflight-api"
     action :install
+end
+
+
+execute "mysql-zoneflight" do
+    command "mysql -uroot --execute \"CREATE DATABASE zoneflight\""
+    notifies :run, "execute[mysql-create-table]"
+    not_if do
+        File.exist?("/var/lib/mysql/zoneflight")
+    end
+end
+
+execute "mysql-create-table" do
+    command "mysql -uroot zoneflight < /var/www/zoneflight-api/bin/database.sql"
+    notifies :run, "execute[mysql-import-table]"
+end
+
+execute "mysql-import-table" do
+    command "APPLICATION_ENV=development /var/www/zoneflight-api/bin/import_airports.php"
+    action :nothing
 end
