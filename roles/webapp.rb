@@ -36,8 +36,8 @@ default_attributes(
 
 run_list(
 "recipe[dotdeb]",
-"recipe[webapp]",
 "recipe[mariadb]",
+"recipe[webapp]",
 "recipe[composer]",
 "recipe[nodejs]"
 )
